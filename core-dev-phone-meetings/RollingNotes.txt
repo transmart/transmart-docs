@@ -1,4 +1,26 @@
 Rolling version of combined agenda and notes; core developers phone calls
+(these notes are archived on github; transmart/transmart-docs/core-dev-phone-meetings)
+
+Meeting agenda - 10 September 2013 -----
+  Version 1.1 is ready! (??)
+  Release process and timing
+  What next?
+
+Imperial College is setting up a test site.
+
+Kees, proposal for 1.2 with merging of "several branches out there"
+
+Also for 1.2, issues: what version of the database and how to track
+	new database schema build (for postgres - needs to be extended to oracle)
+		on thehyve (github) as: https://github.com/thehyve/transmart-data
+	possible to extend/replace Transmart-DB
+	also need social/protocol for update
+also: plugin/architecture
+discuss at Paris workshop
+
+
+
+---- previous notes ----
 
 Meeting agenda - 03 September 2013 -----
 
@@ -29,8 +51,6 @@ Meeting agenda - 03 September 2013 -----
 		prototyped - Chrome, Firefox... more?
 		get automated tests into Bamboo
 	
-
----- previous notes ----
 
 Meeting agenda - 27 August 2013 -----
 
