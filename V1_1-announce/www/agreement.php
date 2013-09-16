@@ -66,8 +66,8 @@
 
 		  <p>If you are a systems administrator or developer, you can set up tranSMART for evaluation by your organisation or project on your own server using one of the options on the right hand side. To use tranSMART you must (a) agree to the license agreement below, and (b) fill out an information form (you will be redirected once your download has started). tranSMART is licensed under the <a href="https://www.gnu.org/licenses/gpl.txt">GNU General Public License Version 3</a>.</p>
 		  <p><b>The information provided will only be used by us to understand who is evaluating and using the tranSMART system and will never be shared with third-parties.</b></p>
-
-<textarea class="field span6" wrap="1" rows="5" name="license agreement" style="height:300px;overflow-x:hidden;">
+<br>
+<textarea class="field span6" wrap="1" rows="5" name="license agreement" style="height:420px;overflow-x:hidden;">
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
@@ -303,14 +303,22 @@ END OF TERMS AND CONDITIONS
        </div>
        <div class="span6">
           <h2>Download</h2>
-		  <label class="checkbox">I have read and agree to the license and terms of use.<input id="confirmbox" type="checkbox" name="license" value="agree" /></label>	  		  		  
-		  <h4>tranSMART pre-installed on Ubuntu Linux</h4>
-		  <p>A RAW flat 10GB disk image running tranSMART that includes all dependencies (PostgreSQL, R, Tomcat) installed, pre-configured, and ready to deploy.</p>
-          <p><a target="_blank" id="dlimage" class="btn disabled" href="#">Download (.img.7z file, 2GB) &raquo;</a></p>
-          <p>MD5 checksum: 1ebc5794076eff19c91776fce096f7e1</p>
+	  <label class="checkbox">I have read and agree to the license and terms of use.<input id="confirmbox" type="checkbox" name="license" value="agree" /></label><br>
           <h4>tranSMART installation for developers</h4>
           <p>If you are a systems developer evaluating tranSMART, and/or aiming to contribute to the development of tranSMART, you can download and install from source code using the instructions on the tranSMART developers wiki.
-          <p><a id="dlinstall" class="btn disabled" href="#">Install tranSMART &raquo;</a></p>          
+          <p><a target="_blank" id="dlinstall" class="btn disabled" href="#">Install tranSMART &raquo;</a></p><br>         
+	  <h4>tranSMART pre-installed on openSUSE Linux</h4>
+	  <p>You can select from the following list of virtual machine disk image running tranSMART that includes all dependencies (PostgreSQL, R, Tomcat) installed, pre-configured, and ready to deploy.</p>
+          <p><a target="_blank" id="dlimage_VMX" class="btn disabled" href="#"><img src="img/type-vmx.png">&nbsp; VMware / VirtualBox / KVM image (.tar.gz file, 720MB) &raquo;</a></p>
+          <p><i>MD5 checksum: bbc9b8110b7bb4624cc0d37e26942fb6</i></p>
+		  <p><a target="_blank" id="dlimage_OVF" class="btn disabled" href="#"><img src="img/type-ovf.png">&nbsp; Open Virtualization Format (.tar.gz file, 750MB) &raquo;</a></p>
+          <p><i>MD5 checksum: b9b0e7b346e30e4133a719df75cfb5a6</i></p>
+		  <p><a target="_blank" id="dlimage_VHD" class="btn disabled" href="#"><img src="img/type-vhd.png">&nbsp; Virtual Hard Disk (.zip file, 716MB) &raquo;</a></p>
+          <p><i>MD5 checksum: e78b6313a756ffc1c85c299c274f27c7</i></p>
+		  <p><a target="_blank" id="dlimage_XEN" class="btn disabled" href="#"><img src="img/type-xen.png">&nbsp; Xen guest image (.tar.gz file, 713MB) &raquo;</a></p>
+          <p><i>MD5 checksum: d1f3dabe733c94eca189534f48455959</i></p>
+		  <p><a target="_blank" id="dlimage_OEM" class="btn disabled" href="#"><img src="img/type-oem.png">&nbsp; USB & disk image (.tar.gz file, 731MB) &raquo;</a></p>
+          <p><i>MD5 checksum: c23afa37e5501182f73f2de42f5e218a</i></p><br>
        </div>
       </div>
 
@@ -343,31 +351,35 @@ END OF TERMS AND CONDITIONS
     
     	var url = {
     		done: "thanks",
-    		image: "http://go.transmart.etriks.org/download",
-    		install: "https://wiki.transmartfoundation.org/display/TSMTGPL/Installing+tranSMART"
+    		image: "download",
+    		install: "https://wiki.transmartfoundation.org/display/TSMTGPL/Installing+tranSMART+from+Source"
     	}
     		
     	jQuery(document).ready(function () {
-    		jQuery("#confirmbox").click(function () {
-    			if (jQuery(this).prop("checked") == true) {
-    				jQuery("#dlimage").removeClass("disabled").attr("href", url.image);
-    				jQuery("#dlinstall").removeClass("disabled").attr("href", url.install);
-    			}
-    			else
-    			{
-    				jQuery("#dlimage").addClass("disabled").attr("href", "#");
-    				jQuery("#dlinstall").addClass("disabled").attr("href", "#");
-    			}
-    		});
-    		jQuery("#dlimage").click(function () {
+			jQuery("a[id^=dlinstall]").attr("href", url.install);
+			jQuery("a[id^=dlimage]").each(function () {
+				jQuery(this).attr("href", url.image + '/' + jQuery(this).attr("id").split("_")[1]);
+			});
+			
+    		jQuery("a[id^=dl]").click(function () {
     			if (jQuery("#confirmbox").prop("checked") == true) {
-    				setTimeout(function () {
-	    				window.location = url.done;
-	    			}, 1000);
+					if (jQuery(this).attr('id') != "dlinstall") {
+						setTimeout(function () {
+							window.location = url.done;
+						}, 1000);
+					}
     				return true;
     			}
     			return false;
     		});
+			
+			jQuery("#confirmbox").prop("checked", false);
+    		jQuery("#confirmbox").click(function () {
+    			if (jQuery("#confirmbox").prop("checked") == true)
+					jQuery("a[id^=dl]").removeClass("disabled");
+				else
+					jQuery("a[id^=dl]").addClass("disabled");
+			});
     	});
     
     </script>
