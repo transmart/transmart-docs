@@ -1,6 +1,52 @@
 Rolling version of combined agenda and notes; core developers phone calls
 (these notes are archived on github; transmart/transmart-docs/core-dev-phone-meetings)
 
+For release of v1.1.0 and as a guide to future releases...
+	Wiki may not be up to date with regard to the dependencies (tomcat etc.
+		that are required/supported for v1.1.0)
+	Example/default datasets are a "bit buggy". Public studies in the eTriks 
+		http://etriks1.uni.lu are better for the next release (e.g. 1.1.1)
+		(involves creating a dump file, including TransmartApp-DB and the 
+		TransmartAppInstaller)
+		Also, would need to update the documentation
+	There is a lot of cleanup needed in the database setup:
+		for example, we should have the installer set up the DB without data
+		then have options to load public dataset(s) that are in the archive
+		Could we have an install script/ and uninstall script for each 'dataset'?
+	Master branch need to be brought up to date (in all the projects where
+		that applies)
+	The JIRA Splint board helped "push" issues forward and focused work on issues.
+	There may be a list of issues for JnJ (old JIRA) on the wiki. (??)
+	Reorganize so that "release" is part of a Transmart project (merge the 1.1 and 1.2)
+		release projects.
+	Any news on Transmart Foundation "bug fixing team"? Bug fixes still coming in
+		from the community (e.g. eTriks)
+	How about "three months" from the 1.1.0 release for bug fix release?
+
+Agenda for future meetings: 
+
+On Oct 1, the proposed agenda is to review the release v1.1.0, and the release process.
+	What worked? What problems were there? What can we do to fix it next time?
+	What fixes need to be made to JIRA?
+	Is the layout and usage of GitHub working?
+	Who will be contributing to bug fixes?
+	How do we decide on that bugs to fix in v1.1.x releases?
+	When do we want to make the next (e.g. v1.1.1) release? 
+
+On Oct 8, the proposed agenda is to start talking about V1.2
+	Kees would like to "run" this meeting (I believe)
+	He said that he had some idea to present
+	(Kees, how about more of an agenda?)
+
+On Oct 15 or 22 - Depends on , Jinlie asked to have David John present on:
+	"the transmart team at Deloitte had been working on merging new 
+	features from Sanofi/pfizer/Janssen/FDA branches to a new 
+	version – still version 1.0 oracle based though and we are 
+	trying to figure out how to merge it with the V 1.1."
+
+
+---- previous notes ----
+
 Meeting agenda - 10 September 2013 -----
   Version 1.1 is ready! (??)
   Release process and timing
@@ -17,10 +63,6 @@ Also for 1.2, issues: what version of the database and how to track
 	also need social/protocol for update
 also: plugin/architecture
 discuss at Paris workshop
-
-
-
----- previous notes ----
 
 Meeting agenda - 03 September 2013 -----
 
