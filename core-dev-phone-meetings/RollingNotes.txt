@@ -1,3 +1,70 @@
+=== October 8 meeting -- tranSMART 1.2
+
+ * TranSMART Codebase
+ 
+ - Current 1.1 tranSMART codebase:
+   - transmartApp (Grails application)
+   https://github.com/transmart/transmartApp   
+
+   Dependencies (published at https://repo.transmartfoundation.org)
+   - Rmodules (plugin containing some Advanced Workflows)
+   - transmart-core-api
+   - transmart-core-db
+
+   (TODO: Terry: pull in changes from https://github.com/transmart/transmartApp/tree/fixes_for_Beta_V1Point1)
+   
+   --> Recombinant by Deloitte (Scott Bedard) : 1.1 codebase contributions to GPL
+   * Cross Trial Explorer Tree
+   * Cohort save feature (Workspace)
+   * Faceted Search -- Integrated Search
+   * Grid view performance improvements
+   Based on 1.0, in the process of merging into 1.1 to provide for 1.2 (around November)
+
+   --> The Hyve (Kees van Bochove)
+   * Faceted Search (J&J HOTFIX) converted to Postgres and merged with 1.1 (based on earlier work by Florian Guitton / Imperial)
+   * arrayCGH support (from TraIT)
+   * Genome browser
+   https://github.com/thehyve/transmartApp
+   * GWAS Functionality: https://github.com/thehyve/transmartApp/tree/gwas
+   --> Strategy: wait for Recombinant development of GWAS functionality as a plugin (early November - private Pfizer GitHub repository)
+   
+   --> eTRIKS feature roadmap (Ibrahim Emam)
+   * Advanced analyses, grid view, performance upgrades for Search (coming 3-4 months)
+   
+   Recommended branching strategy: do a public fork and then have additional developments in a public branch
+   Rationale: this is important to achieve transparency within the developer community (e.g. via GitHub graphs)
+
+   Merging strategy: would be useful to have public versions to *test* functionalities of any branches to be merged
+   Use pull requests into transmartApp master branch to keep track of code proposals (https://github.com/transmart/transmartApp/pulls)
+   
+
+ * Database schema management
+
+   Management across branches, across Oracle-Postgres...
+   
+   Currently at https://github.com/transmart/transmartApp-DB
+   * Database dump: for Oracle (GPL 1.0)
+   * Database table extraction: https://github.com/transmart/transmartApp-DB/tree/fixes_for_Beta_V1Point1
+     --> has e.g. all biomart schemas in https://github.com/transmart/transmartApp-DB/blob/fixes_for_Beta_V1Point1/postgresql_wGEO/biomart/ddl/biomart.sql
+   * Public datasets (GEO datasets) are not not correctly annotated --> public data at http://etriks1.uni.lu
+     Can these be contributed? 
+   * Public datasets for Across Trial (Scott Bedard) -- will be made available?
+
+   Need for upgrade tracking (David Johnson): create a table in the database that tracks the exact version of the DB schema
+   
+   Matthew Demerath: It would also be nice to have the DDL to alter tables so migration from one version to another would be easier.
+ 
+   Ami Khandeshi: Need a better way to share public datasets, not sure these should be shared together with the db schema
+ 
+   Proposal for managing database schema's via make across Oracle - Postgres
+   https://github.com/thehyve/transmart-data
+   - Example data in TSV (db independent)
+   - Database specific DDL's 
+   - Dynamic make targets for several public datasets (TCGA OV and GEO studies)
+
+
+=== October 1
+
 Rolling version of combined agenda and notes; core developers phone calls
 (these notes are archived on github; transmart/transmart-docs/core-dev-phone-meetings)
 
