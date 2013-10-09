@@ -12,6 +12,7 @@
    - transmart-core-db
 
    (TODO: Terry: pull in changes from https://github.com/transmart/transmartApp/tree/fixes_for_Beta_V1Point1)
+   Done - T.
    
    --> Recombinant by Deloitte (Scott Bedard) : 1.1 codebase contributions to GPL
    * Cross Trial Explorer Tree
@@ -19,6 +20,9 @@
    * Faceted Search -- Integrated Search
    * Grid view performance improvements
    Based on 1.0, in the process of merging into 1.1 to provide for 1.2 (around November)
+   From chat window - Scott Bedard said: Here are a couple other things RbD is working on: 
+   * i2b2 modifier support, gridview enhancements and performance (replaced with jQuery), 
+   * new advanced workflows, advanced export, working on patient profile popup off gridview (beta stage)
 
    --> The Hyve (Kees van Bochove)
    * Faceted Search (J&J HOTFIX) converted to Postgres and merged with 1.1 (based on earlier work by Florian Guitton / Imperial)
@@ -30,6 +34,8 @@
    
    --> eTRIKS feature roadmap (Ibrahim Emam)
    * Advanced analyses, grid view, performance upgrades for Search (coming 3-4 months)
+   * David Johnson added in chat: Multiple select from study tree to drop into Grid View, 
+     and performance of Grid View for very large data sets.
    
    Recommended branching strategy: do a public fork and then have additional developments in a public branch
    Rationale: this is important to achieve transparency within the developer community (e.g. via GitHub graphs)
