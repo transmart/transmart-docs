@@ -1,3 +1,10 @@
+Presentation by David John, on the work that Recombinant By Deloitte, based on 
+GEO1.0, showing High Throughput Data, SNP data, and cross trial queries.
+Faceted search and searching in the the cross trail data!
+Also, workspace: Save queries and reload them; replay analysis. 
+The session was recorded and a link will be send out.
+
+--- previous versions --
 Rolling version of combined agenda and notes; core developers phone calls
 (these notes are archived on github; transmart/transmart-docs/core-dev-phone-meetings)
 
