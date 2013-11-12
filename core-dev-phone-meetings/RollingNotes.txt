@@ -1,3 +1,34 @@
+Nov 12, 2013
+
+	Note: the phone meeting for Tuesday, November 19, is the Monthly Users meeting. 
+	Invitations forthcoming; please attend. Because of that, there will be
+	no developer's phone meeting next week. 
+
+1. Review of the Paris meeting and items arising from that
+	- Harm Aarts, @theHive, is working on a style guide for development, 
+	  He will add it to the wiki (or has already)
+	  Based on this model
+	  http://groovy.codehaus.org/Groovy+style+and+language+feature+guidelines+for+Java+developers
+	  (also on Google discuss group)
+	- I think it would be a good idea to accept the existing pull requests
+	  (review)
+	- Other matters arising
+2. Transition to 1.2 Alpha
+	- Which branch to follow in GitHub
+	- Handeling Pending Pull requests
+	- Setting up CI testing in Bamboo
+	- Database upgrades: Postgres 9.3; Oracle 
+	- Which ETL procedure(s)
+	- Continuing the “new feature” planning from the Paris workshop
+
+Jay Bergeron presented the work (from the Paris workshop) on setting up committees for 
+   Development, Administration, and Architecture. More forthcoming.
+Peter Rice presented new features that came out of the User Sessions at the Paris Workshop
+   He will be setting up a wiki page showing those with additional information.
+
+
+-- previous versions --
+Oct 22, 2013
 Presentation by David John, on the work that Recombinant By Deloitte, based on 
 GEO1.0, showing High Throughput Data, SNP data, and cross trial queries.
 Faceted search and searching in the the cross trail data!
