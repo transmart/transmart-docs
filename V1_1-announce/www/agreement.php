@@ -303,7 +303,11 @@ END OF TERMS AND CONDITIONS
        </div>
        <div class="span6">
           <h2>Download</h2>
-	  <label class="checkbox">I have read and agree to the license and terms of use.<input id="confirmbox" type="checkbox" name="license" value="agree" /></label><br>
+		  <label class="checkbox">I have read and agree to the license and terms of use.<input id="confirmbox" type="checkbox" name="license" value="agree" /></label>	  		  		  
+		  <h4>tranSMART pre-installed on Ubuntu Linux</h4>
+		  <p>A RAW flat 10GB disk image running tranSMART that includes all dependencies (PostgreSQL, R, Tomcat) installed, pre-configured, and ready to deploy.</p>
+          <p><a target="_blank" id="dlimage" class="btn disabled" href="#">Download (.img.7z file, 2GB) &raquo;</a></p>
+          <p>MD5 checksum: 1ebc5794076eff19c91776fce096f7e1</p>
           <h4>tranSMART installation for developers</h4>
           <p>If you are a systems developer evaluating tranSMART, and/or aiming to contribute to the development of tranSMART, you can download and install from source code using the instructions on the tranSMART developers wiki.
           <p><a target="_blank" id="dlinstall" class="btn disabled" href="#">Install tranSMART &raquo;</a></p><br>         
