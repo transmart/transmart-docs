@@ -1,3 +1,8 @@
+Dec 3, 2013
+Agenda:
+	
+
+-- previous --
 Nov 26, 2013
 Agenda:
 1. Review commits from pull requests (transmartApp, transmart-docs) 
@@ -36,10 +41,7 @@ Agenda:
 Aman Patel St Jude working with 1.1 and GenePattern. Upgrading from JnJ version.
 posted to google group, interested in any other GenePattern users with 1.1.
 
-
-
-
--- previous versions --
+---
 Nov 12, 2013
 
 	Note: the phone meeting for Tuesday, November 19, is the Monthly Users meeting. 
