@@ -1,6 +1,48 @@
-Dec 3, 2013
-Agenda:
+Jan 14, 2014
+
+Agenda items
+	Announcements
+	Update from all groups
+	Discussion of changes to Imperial Branch and others
+	Discussion of Merging plans	
 	
+Imperial College
+	Cohort management (groupings)
+	Postgres 9.3!
+	Requirements repository for eTriks (to be shared)
+	eTriks annual meeting coming up
+	Collection of domain classes as a grails plugin! 
+		transmart/ImperialBranch
+		transmart-legacyDB
+		(code needs to be put in transmart project) 
+	Working on merge of other branches
+
+theHyve
+	TRAIT - cgf support; incremental data loading
+	eTriks - core API; Rest-ful interface
+	Sanofi project - build in core API (also R modules!)
+	
+Recombinant
+	working with Pfizer and BioGen; 
+	
+
+
+Keith (tranSMART Foundation) - Hackathon
+	February 5-7
+	Sponsored by Sanofi 
+	Workshop Goals - Merging active branches
+	Testing and Documentation
+	@ Recombinant by Deloitte
+	Contact keith.elliston@transmartfoundation.org
+	Workshop Goals - Merging active branches
+	Testing and Documentation
+	
+-- previous --
+
+Dec 10, 2013
+Status review (contributions 1.2)
+- Genepattern on 'new' transmartApp - Aman Patel (will submit patch)
+
 
 -- previous --
 Nov 26, 2013
