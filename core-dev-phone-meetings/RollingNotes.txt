@@ -1,3 +1,103 @@
+Jan 28, 2014
+Agenda items
+	Progress on Hackithon preparations
+	VMs for Hackithon 
+	Test data for Hackithon
+	
+Dave John
+	Merging branch as candidate for merge to be made available (
+	What branch is best candidate for a target/test branch (proposing Rc2_dev at theHyve)
+theHyve
+	Rc2_dev is the merge with Sanofi contributions
+
+----
+
+Jan 14, 2014
+
+Agenda items
+	Announcements
+	Update from all groups
+	Discussion of changes to Imperial Branch and others
+	Discussion of Merging plans	
+	
+Imperial College
+	Cohort management (groupings)
+	Postgres 9.3!
+	Requirements repository for eTriks (to be shared)
+	eTriks annual meeting coming up
+	Collection of domain classes as a grails plugin! 
+		transmart/ImperialBranch
+		transmart-legacyDB
+		(code needs to be put in transmart project) 
+	Working on merge of other branches
+
+theHyve
+	TRAIT - cgf support; incremental data loading
+	eTriks - core API; Rest-ful interface
+	Sanofi project - build in core API (also R modules!)
+	
+Recombinant
+	working with Pfizer and BioGen; 
+	
+
+
+Keith (tranSMART Foundation) - Hackathon
+	February 5-7
+	Sponsored by Sanofi 
+	Workshop Goals - Merging active branches
+	Testing and Documentation
+	@ Recombinant by Deloitte
+	Contact keith.elliston@transmartfoundation.org
+	Workshop Goals - Merging active branches
+	Testing and Documentation
+	
+-- previous --
+
+Dec 10, 2013
+Status review (contributions 1.2)
+- Genepattern on 'new' transmartApp - Aman Patel (will submit patch)
+
+
+-- previous --
+Nov 26, 2013
+Agenda:
+1. Review commits from pull requests (transmartApp, transmart-docs) 
+   - larger commits are (or will be) on separate branches
+   - hyve request merged with fixes_for_Beta_V1Point1 on new branch proposal-1.2-alpha
+   - Harm's cleanup request merged with fixes_for_Beta_V1Point1 on new branch whitespaceFixAndDropUnusedTests
+   Eugene's pull request from 1.1 to be merged.
+
+2. Update of master branch (transmartApp, transmartApp-DB, tranSMART-ETL)
+   - master branch to be “latest stable version"
+   - wiki Repositories+and+branches for for comments on useful/obsolete branches
+
+3. Testing
+   - Test new major merges (eg. white-space change)
+   - Automated (e.g. Unit and Integration tests)
+   - Sanity check on merges
+   - Goal is to have some certainty that things work
+   need for transmartApp tests slenium? Geb?
+   document test definitions on wiki.
+
+4. Postgres 9.3 (master branch?)
+   tested with current codebase by Axel at Imperial.
+   materialised views created in Postgres needs benchmarking
+   script available to migrate to materialised views
+
+5. Fixes for V1.1.1
+   - Getting rid of the fixesForV1Point!Beta branch
+   - what else is needed for a release update
+
+6. Matters arising
+   - Harm Aarts has added a Coding+guidelines style guide on the wiki
+   - Hyve have two RFCs on the wiki
+     * TranSMART+RESTful+API+Proposal
+     * API+for+High+Dimensional+Data
+
+Aman Patel St Jude working with 1.1 and GenePattern. Upgrading from JnJ version.
+posted to google group, interested in any other GenePattern users with 1.1.
+
+---
 Nov 12, 2013
 
 	Note: the phone meeting for Tuesday, November 19, is the Monthly Users meeting. 
