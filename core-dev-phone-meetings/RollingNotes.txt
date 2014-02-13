@@ -1,3 +1,36 @@
+Feb 11, 2014
+Agenda items - Hackathon status
+	What branches are 'active'
+	Who is working on what
+	What are the final target branches
+	What is the ETA of each branch
+	
+Notes:
+	Bamboo triggered by GitHub commits to the "Hackathon branches"
+		transmartApp - v1.2_Hackathon
+		RModules - merge-netezza
+		transmart-legacy-db - v0.2_hackathon
+		transmart-core-api - master
+		transmart-core-db - master
+	Other Branches
+		theHyve/transmart-date - hackathon
+		theHyve (functional tests) ??
+		(Any Others?)
+	GWAS and other - proposal for new plugin repositories in transmart
+		transmart-gwas
+		transmart-workspace
+		folder-management
+		
+	Spreadsheet of Taskboard from Hackathon
+		This could be transfered to JIRA
+
+transmart-extensions
+transmart-java -  essentially isolating Java classes.  I have refactored the transmart-legacy-db to reflect that.   I have not checked in my changes to transmart-legacy-db in as of yet.  My only hesitation is that everything is not tested.    ?  Any thoughts?
+biomart-domain -  This isolates all of the domain associated with biomart schema. I have refactored the transmart-legacy-db to reflect that.
+search-domain -  This isolates all of the domain associated with searchapp schema. I have refactored the transmart-legacy-db to reflect that.
+
+
+----
 Jan 28, 2014
 Agenda items
 	Progress on Hackithon preparations
