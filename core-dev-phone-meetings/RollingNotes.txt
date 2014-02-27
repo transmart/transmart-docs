@@ -1,3 +1,47 @@
+Feb 25, 2014
+Agenda items
+    Review of status of Hackathon branches
+    Matters arising
+
+Notes:
+    Hyve want to work on Oracle/Postgres support with JnJ.
+
+    The plan is to set up two servers, running Oracle and
+    Postgres, and to ytry to use both from a single application.
+    This should be simpler than DDL dumps and trying to align the schemas.
+
+    Test data from the hackathon should be made available somewhere.
+    Peter will document the datasets on the wiki and check with Terry
+    on links to an accessible download URL.
+
+    Ward has added documentation on the transdmart-data
+    respository to the wiki. This can be used as the central
+    repository for hackathon/1.2 schema and data updates.
+
+    Ami needed somewhere to describe schema changes for merging
+    Pfizer code. These can be added in transmart-data
+
+    Venkata asked for the test studies (Cairo) to be removed from
+    the installation in 1.2. Peter suggested all test data should
+    be separately downloaded and installed using ETL procedures if
+    required.
+
+    Dave John reported on Recombinant code merging. Outstanding
+    tasks include test and study data. The contacts are the
+    hackathon attendees.
+
+    Charlotte reported on Sanofi RC2 progress. Acceptance tests
+    for the final sprint will continue next week.
+
+
+Matters arising:
+    Foundation would like to present a poster at Bio-IT World.
+    
+    Several developers requested wiki accounts which Peter will set up.
+
+
+
+----
 Feb 11, 2014
 Agenda items - Hackathon status
 	What branches are 'active'
