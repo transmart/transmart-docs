@@ -1,3 +1,27 @@
+March 4, 2014
+Agenda items
+	Review of status of Hackathon branches
+		Snaofi Branch - working on Security into core
+		Oracle support - Janson (amazon instance) for testing; testing still needs to be done
+		Changes to legacy-db and the extension, gwas, folder-management and workspace plugins
+			(Need to be included in transmartApp)
+		Changes in oracle have not in postgres
+			workspace and Gwas
+			in transmart-db/oracle
+			background postgres site = theHyve/transmart-data	
+		
+	Working Code groups status (Jay Bergeron) 
+		Starting up - weekly: brief update; issues arising
+		Engineering Support
+			*Peter Rice, Dave John, Terry Weymouth, Venkata Satagopam
+		Product Management
+			Dan Houseman, John Boles, Matt Clifford, *Ioannis Pandis, 
+			Sowmyanarayan Shrinivasan, Dave John
+		Architecture
+			Florian Guitton, Kees van Bochove, Jinlei Liu, *Ami Khandeshi
+ 
+
+----
 Feb 25, 2014
 Agenda items
     Review of status of Hackathon branches
