@@ -1,4 +1,24 @@
 March 4, 2014
+Bamboo tasks review: all hackathon branches compile; all plugins on archive
+Getting transmartApp to work
+Github branch(s) review
+	Sanofi Branch (theHyve) - small fixes
+	master (theHyve) - export, restAPI, https://github.com/thehyve/RInterface (R-Client)
+		security for rest API
+	Oracle support - still setting up DB for testing
+	Extensions, folder-management in transmasrt/transmartApp being worked on (bugs in transmartApp first)
+		(gwas and worspace not integrated)
+Status reports
+	NGS support in transmart - meeting on Thursday
+Working Code groups status
+	Product Management
+		first meeting last week
+		working on process
+		planning, to work on road map and long term backlog
+		plans to put notes, etc. going on wiki
+	
+----
+March 4, 2014
 Agenda items
 	Review of status of Hackathon branches
 		Snaofi Branch - working on Security into core
