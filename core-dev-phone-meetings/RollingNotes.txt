@@ -1,3 +1,21 @@
+Tuesday, March 25, 2014; 11:00 EDT, 15:00 GMT, 16:00 CET.
+Suggested agenda:
+	Status overview (Bamboo, BT-hosted test site: http://75.124.74.64/transmart/datasetExplorer )
+	Plans for testing and reporting
+		additional data for testing?
+		transmart-test (from theHyve -> hackathon branch on transmart)
+		JIRA
+		Scrum board
+	London Hackathon (April 8-10)
+		Preparations
+	Status details
+		reports “from the floor”
+	Matters arising
+Additional Notes:
+	What is the vision for additional releases: 1.1.1, 1.3, 2.0 ??? (Contact Jay Bergeron)
+	2.0 may involve Architecture changes; collect knowledge!
+
+----
 March 4, 2014
 Bamboo tasks review: all hackathon branches compile; all plugins on archive
 Getting transmartApp to work
