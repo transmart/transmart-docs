@@ -1,13 +1,23 @@
 Tuesday, April 1, 2014; 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
 Suggested agenda (mostly Hackathon Preparations):
-	From Kevin: What resources? What goals? 
+	Hackathon logistics
+		April 8th to 10th, Tuesday-Thursday
+		No developers call next week!
+		starting 9:00 and ending at 17:00
+		Imperial College London in room 217/8 of the Huxley building.
+		Peter Rice is primary contact.
+	Hackathon Attendance
+		Who is coming
+		Remote attendees? (Google+ Hangouts; HipChat)
+	For Hackathon preparation: What resources? What goals? 
 	Resources in the works
-		A "unloaded" Linix box (from BT) is being set up.
+		A "unloaded" Linux box (from BT) is being set up.
 		What software needs to be loaded?
 		( took this list from transmart-data README and other docs )
 			GNU Make, PostgreSQL 9.3 with clients, curl, php (> 5.4), GNU tar, git, Kettle,
 			Grails, Groovy, R (with its's libraries, including Rserve), rsync, JDK 1.7,
 			Apache Tomcat 7, Ant, Maven, Grails 2.3.7 (2.3.5?)
+			(developers version) Oracle database - investigate license issues (terry)
 	Active projects are (see http://75.124.74.64/transmart/datasetExplorer)
 		Netezza (mostly merged,  yes?)
 		Workspace (merged?)
@@ -15,25 +25,19 @@ Suggested agenda (mostly Hackathon Preparations):
 		GWAS ??
 		transmart-data - what is needed here
 		Others???
-	Hackathon logistics
-		April 8th to 10th, Tuesday-Thursday
-		starting 9:00 and ending at 17:00
-		Imperial College London in room 217/8 of the Huxley building.
-		Peter Rice is primary contact.
 	Which of the active projects are to be included in Hackathon
-		RC2!
-		Others??
+		RC2 (from theHyve and TRAIT)
+		How to configure and test Faceted Search
+		Evaluate GWAS status.
+		Feature freeze at "the end of the London Hackathon"
 	Big know problems
-		Oracle/PostgreSQL alignment
+		Oracle/PostgreSQL alignment (RC2, GWAS, Faceted search versions)
 		Faceted Search Naming Conflict (two version, same name)
 		SORL unification (used by Faceted Search-A, Faceted Search-B, and search)
 		Test Data
 	JIRA for hackathon
 		Reuse existing SCRUM board or make new one
 		Need to populate
-	Hackathon Attendance
-		Who is coming
-		Remote attendees? (Google+ Hangouts; HipChat)
 	Capturing and tracking Bugs using JIRA
 ---- 
 
