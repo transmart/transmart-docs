@@ -1,3 +1,42 @@
+Tuesday, April 1, 2014; 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
+Suggested agenda (mostly Hackathon Preparations):
+	From Kevin: What resources? What goals? 
+	Resources in the works
+		A "unloaded" Linix box (from BT) is being set up.
+		What software needs to be loaded?
+		( took this list from transmart-data README and other docs )
+			GNU Make, PostgreSQL 9.3 with clients, curl, php (> 5.4), GNU tar, git, Kettle,
+			Grails, Groovy, R (with its's libraries, including Rserve), rsync, JDK 1.7,
+			Apache Tomcat 7, Ant, Maven, Grails 2.3.7 (2.3.5?)
+	Active projects are (see http://75.124.74.64/transmart/datasetExplorer)
+		Netezza (mostly merged,  yes?)
+		Workspace (merged?)
+		RC2 - merge planned for Hackathon
+		GWAS ??
+		transmart-data - what is needed here
+		Others???
+	Hackathon logistics
+		April 8th to 10th, Tuesday-Thursday
+		starting 9:00 and ending at 17:00
+		Imperial College London in room 217/8 of the Huxley building.
+		Peter Rice is primary contact.
+	Which of the active projects are to be included in Hackathon
+		RC2!
+		Others??
+	Big know problems
+		Oracle/PostgreSQL alignment
+		Faceted Search Naming Conflict (two version, same name)
+		SORL unification (used by Faceted Search-A, Faceted Search-B, and search)
+		Test Data
+	JIRA for hackathon
+		Reuse existing SCRUM board or make new one
+		Need to populate
+	Hackathon Attendance
+		Who is coming
+		Remote attendees? (Google+ Hangouts; HipChat)
+	Capturing and tracking Bugs using JIRA
+---- 
+
 Tuesday, March 25, 2014; 11:00 EDT, 15:00 GMT, 16:00 CET.
 Suggested agenda:
 	Status overview (Bamboo, BT-hosted test site: http://75.124.74.64/transmart/datasetExplorer )
