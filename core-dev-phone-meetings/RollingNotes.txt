@@ -1,3 +1,36 @@
+Tuesday, April 22, 2014: 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
+Suggested agenda
+Proposed agenda:
+Check status and JIRA reports for . . .
+	transmart/transmartApp(branch = v1.2_Hackathon), running on http://75.124.74.64
+	transmart/transmartApp(branch = london_hackaton), running on http://75.124.74.46 (admin/admin)
+Review status of readiness for final merge
+	what is required for final merge (of the two branches above)?
+	who is working on those parts?
+	what stands in the way of getting it done?
+	what is ETA?
+Data for Faceted Search - Ward will load
+Missing SOLR data on http://75.124.74.64/ - is SOLR running? 
+Ami, Ward will help terry build SOLR index on ...64 (aka the Boston Branch)
+Alex working LondonHackathon branch (.... 46) waiting on getting PostgreSQL schema:
+	Using RC2 branch as definitive branch; collisions!
+	How to introduce Faceted Search into RC2 branch? (eg. via cherry picking of features 
+Terry and Peter will try to get a definitive "cut" on the demo needs for BioIT,
+	ASAP, reasonable and effective.
+ETL updates needed! 
+Current Schedule: Release in June 20, "testathon" in mid May. Is this still reasonable?
+	Kevin, Jay, and others will talk about project management for 1.2 (at BioITWorld)
+	Some "wiggle room" for release giving that Community meeting is postponed.
+BioIT World 
+  Pre-conference workshop: presentation (not demo)
+  Evening workshop (Community meeting): (Kevin)
+	Possible demo of current 1.2, but needs appropriate data.
+	What host for 1.2 Alpha: http://75.124.74.64/transmart/datasetExplorer???
+	Presentations/demos of capabilities - using prototypes from individual groups
+What is achievable for June 20 release date? (Terry will initiate a round of e-mail)
+
+	
+
 Tuesday, April 1, 2014; 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
 Suggested agenda (mostly Hackathon Preparations):
 	Hackathon logistics
