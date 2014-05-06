@@ -1,3 +1,47 @@
+Tuesday, May 6, 2014: 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
+Agenda,
+  Review of BioIt World meetings and feedback from same
+	presentations
+	  Cross trials and workspace 
+	  Snofi branch
+	  REST-ful API - R integration; genome browser (release issues??!)
+	  GWAS
+	  Current state of integration
+	  (some demo-ed on Postgres, some in Oracle!!!)
+	REST-ful API issues may keep it from being in 1.2 (!??)
+	  May be able to be released as a plugin, and (if so) can be released after 1.2
+	Transmart Foundation 'events'
+	  won "best practices award" - supplemental wiki portal v1.1 with lots of extras!
+	  committee meetings
+	  	code committee -
+	  	  test-a-thon needs data; this may push the date for release
+	  	  where are the datasets for testing; 
+	  	  architecture working group needs launch to "hit the road running"!
+	  	content committee -
+	  	  role of transmart and how to share data
+	  	  issues of data release and sharing: architecture implications
+	  	  "ready to go" datasets are needed for testing
+	  	  Cirt of quality is deeper issue!
+	  	  
+  Who is (planning on) doing what in the merge process
+	transmart-data needs to be "merged" so that PostgreSQL and Oracle are "same" DB
+	  Peter is working on this! 
+	  Ward: instructions on how to match RC2 schema with current Oracle
+	London-hackathon and hackathon-v1.2
+	  "everyone"
+	(REST API for eTriks)
+  Realistic deadlines for "being ready to test".
+	would a "virtual hackathon" be helpful?
+	end of June would be very tight
+	May 20th - Two version possible working on both DB's ???
+	Need a plan (by next weeks meeting)
+	  Jay, Peter, Ami, Ward, David, Terry, Harini (Harini.Gopalakrishnan@cognizant.com)
+	  charter is take the "Paris list of features" + known problems,
+	  	assign person and fix date? dependencies?
+	  	get people together on Friday, 9:00-10:30 EDT
+	
+
+
 Tuesday, April 22, 2014: 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
 Suggested agenda
 Proposed agenda:
