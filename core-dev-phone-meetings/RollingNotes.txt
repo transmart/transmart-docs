@@ -39,8 +39,6 @@ Agenda,
 	  charter is take the "Paris list of features" + known problems,
 	  	assign person and fix date? dependencies?
 	  	get people together on Friday, 9:00-10:30 EDT
-	
-
 
 Tuesday, April 22, 2014: 11:00 EDT, 16:00 BST, 17:00 CEST (e.g 15:00 GMT)
 Suggested agenda
